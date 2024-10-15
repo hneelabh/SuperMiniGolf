@@ -44,11 +44,11 @@ import sys
 # INITIALIZATION
 pygame.init()
 
-SOUND = False
+SOUND = True
 
 winwidth = 1080
 winheight = 600
-pygame.display.set_caption('Super Minigolf')
+pygame.display.set_caption('Minigolf')
 
 # LOAD IMAGES
 icon = pygame.image.load(os.path.join('img', 'icon.ico'))
